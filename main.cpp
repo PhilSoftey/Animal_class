@@ -14,10 +14,12 @@ using namespace std;
 class Animal
 {
 public:
+    //Constructor
     Animal()
         : furColour ("Black"),
         numLegs(0){}
     
+    //Destructor
     virtual ~Animal(){}
     
     virtual void doANoise()
